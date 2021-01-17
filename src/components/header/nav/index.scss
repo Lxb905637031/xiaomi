@@ -1,0 +1,27 @@
+.hd-nav {
+    float: left;
+    height: 100px;
+    margin-left: 50px;
+    .nav-item {
+        display: inline-block;
+        width: 75px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        &:hover {
+            .item-lk {
+                color: #ff6700;
+            }
+        }
+    }
+    &:hover {
+        .nav-menu {
+            height: 229px;
+            border-color: #ddd;
+            box-shadow: 0 10px 10px #999;
+        }
+    }
+    .item-lk {
+        font-size: 18px;
+    }
+}

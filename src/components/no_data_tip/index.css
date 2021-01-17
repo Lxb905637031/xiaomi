@@ -1,0 +1,12 @@
+.no-data-tip {
+  width: 1226px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 300px;
+}
+
+.no-data-tip p {
+  color: #666;
+}

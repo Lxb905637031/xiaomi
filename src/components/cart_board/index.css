@@ -1,0 +1,9 @@
+.cart-board {
+  background-color: #fff;
+}
+
+.cart-board .container {
+  width: 1226px;
+  margin: 0 auto;
+  padding: 32px 0;
+}

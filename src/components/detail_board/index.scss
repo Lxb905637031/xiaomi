@@ -1,0 +1,42 @@
+.detail-board {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    margin-top: 1px;
+    .container {
+        position: relative;
+        width: 1226px;
+        height: 650px;
+        margin: 0 auto;
+        padding: 32px 0;
+        .left {
+            width: 606px;
+            .pic {
+                width: 560px;
+                height: 560px;
+            }
+        }
+        .right {
+            position: absolute;
+            top: 72px;
+            left: 0;
+            width: 100%;
+            padding-left: 618px;
+            box-sizing: border-box;
+            .slogan {
+                margin-top: 10px;
+                font-size: 14px;
+                color: #999;
+                word-wrap: break-word
+            }
+            .price {
+                margin-top: 20px;
+                font-size: 18px;
+                color: #ff6700;
+            }
+            .content-wrapper {
+                width: 608px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

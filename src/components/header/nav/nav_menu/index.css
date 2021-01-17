@@ -1,0 +1,62 @@
+.nav-menu {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 0;
+  background-color: #fff;
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+  transition: all .3s ease-in-out .2s;
+  overflow: hidden;
+}
+
+.nav-menu .container {
+  width: 1226px;
+  margin: 0 auto;
+}
+
+.nav-menu .container .phone-card {
+  float: left;
+  width: 16.66%;
+  height: 100%;
+}
+
+.nav-menu .container .phone-card .thumb {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  margin-top: 10px;
+}
+
+.nav-menu .container .phone-card .thumb::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 18px;
+  width: 0;
+  height: 130px;
+  border-left: 1px solid #ddd;
+}
+
+.nav-menu .container .phone-card .thumb.first::after {
+  border: none;
+}
+
+.nav-menu .container .phone-card .thumb img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+.nav-menu .container .phone-card .info {
+  text-align: center;
+}
+
+.nav-menu .container .phone-card .info p {
+  color: #ff6700;
+  margin-top: 5px;
+}

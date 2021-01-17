@@ -1,0 +1,38 @@
+table {
+	width: 100%;
+
+	th {
+		height: 50px;
+	}
+
+	td,
+	th {
+		text-align: center;
+		font-size: 16px;
+		border-bottom: 1px solid #ddd;
+
+		&:nth-child(2) {
+			width: 150px;
+		}
+
+		&:nth-child(3) {
+			width: 130px;
+		}
+
+		.price {
+			color: #f20;
+		}
+
+		img {
+			width: 120px;
+		}
+
+		button {
+			width: 60px;
+			height: 30px;
+			background-color: #ff6700;
+			color: #fff;
+			font-size: 14px;
+		}
+	}
+}

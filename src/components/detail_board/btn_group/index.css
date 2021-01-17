@@ -1,0 +1,16 @@
+.detail-btn {
+  float: right;
+  width: 150px;
+  height: 40px;
+  margin-left: 30px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.detail-btn.purchase-btn {
+  background-color: #ff6700;
+}
+
+.detail-btn.add-to-cart-btn {
+  background-color: #f20;
+}

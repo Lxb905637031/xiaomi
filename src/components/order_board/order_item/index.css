@@ -1,0 +1,34 @@
+table {
+  width: 100%;
+}
+
+table th {
+  height: 50px;
+}
+
+table td,
+table th {
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+table td:nth-child(2),
+table th:nth-child(2) {
+  width: 150px;
+}
+
+table td:nth-child(3),
+table th:nth-child(3) {
+  width: 130px;
+}
+
+table td .price,
+table th .price {
+  color: #f20;
+}
+
+table td img,
+table th img {
+  width: 120px;
+}
